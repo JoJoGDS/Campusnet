@@ -1,0 +1,35 @@
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .login-link {
+    text-align: center;
+  }
+</style>
+.login-main {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 2rem;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	background-color: transparent;
+  	height: 100%;
+    position: relative;
+}
+
+.scroll-text {
+  color: black;
+}
+body {
+  background-image: linear-gradient(to bottom right, green, red);
+	margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.plop {
+	text-decoration: blink;
+}

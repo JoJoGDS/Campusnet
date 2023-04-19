@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK HREF="stylealogin.css" TYPE="text/css" REL="stylesheet">
+<title>Syakirah HOTSPOT | redirect</title>
+<link rel="shortcut icon" href="green_favicon.ico" type="image/x-icon">
+</head>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6FB24B" style="background-repeat:repeat-x; background-position:top; height:100%; background-image:url(images/til_1.jpg) ">
+  <tr>
+    <td style="background-image:url(images/til_1.gif); background-position:top right; background-repeat:no-repeat">&nbsp;</td>
+    <td width="766" align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" valign="top"><img alt=""  src="images/top_1.gif" width="766" height="35"></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr align="left" valign="top">
+            <td><img alt=""  src="images/left.gif" width="137" height="134"></td>
+            <td><img alt=""  src="images/head.gif" width="552" height="134"></td>
+            <td><img alt=""  src="images/right.gif" width="77" height="134"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr align="left" valign="top">
+            <td width="58" height="280"><img alt=""  src="images/left_2.gif" width="58" height="288"></td>
+            <td width="83"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><img alt=""  src="images/l_1.gif" width="83" height="31"></td>
+                </tr>
+                <tr>
+                  <td height="162"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="35" align="left" valign="top" style="background-image:url(images/1_09.gif) "><div style="padding-left:30px; padding-top:16px"><a href="http://syakirahkomputer.blogspot.com/2011/12/game-warnet.html" class="style1">GameNet</a></div></td>
+                      </tr>
+                      <tr>
+                        <td height="39" align="left" valign="top" style="background-image: url(images/1_10.gif)"><div style="padding-left:30px; padding-top:14px"><a href="http://syakirah.net/updatecache/4shared/" class="style2">Unduhan</a></div></td>
+                      </tr>
+                      <tr>
+                        <td height="39" align="left" valign="top" style="background-image: url(images/1_11.gif)"><div style="padding-left:30px; padding-top:14px"><a href="http://www.sms-online.web.id" class="style3">Free SMS</a></div></td>
+                      </tr>
+                      <tr>
+                        <td height="53" align="left" valign="top" style="background-image: url(images/1_12.gif)"><div style="padding-left:30px; padding-top:14px"><a href="polling.html" class="style4">Polling</a></div></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td><img alt=""  src="images/l_2.gif" width="83" height="91"></td>
+                </tr>
+            </table></td>
+            <td width="15"><img alt=""  src="images/left_3.gif" width="15" height="288"></td>
+            <td><table width="100%" height="288"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="background-image:url(images/u_2.gif); background-position:bottom left; background-repeat:no-repeat ">
+                <tr align="left" valign="top">
+                  <td height="280" style="background-image:url(images/u_1.gif); background-position:top left; background-repeat:no-repeat "><div style="padding-left:7px; padding-top:5px"></div>
+				  
+				  <table width="100%">
+
+<tr>
+<td height="237" align="center" valign="middle">
+<b class="style1"><font size="4">Merci d'être venu</font></b> <br><br>
+<b class="style1">VEUILLEZ UTILISER VOTRE NAVIGATEUR INTERNET PRÉFÉRÉ</b> <br><br>
+<table class="tabula" border="0">  
+
+
+<table style="border: 0px solid #cccccc; padding: 0px;background-color: " cellpadding="0" cellspacing="0" align="center" valign="middle">
+</TD></tr> <tr></Tr><tr></Tr><tr></Tr><tr valign="top"> <td >
+
+<form action="http://www.facebook.com/"  onSubmit="return openPage('time.html',280)";>
+<input class="masuk" type="submit"  value="  Facebook  ">
+  </form>
+    </td><td>
+<form action="http://www.google.cd"  onsubmit="return openPage('time.html',280)";>
+<input class="masuk"  type="submit"  value="    Google   ">
+  </form></td><td>
+ <form action="http://www.youtube.com"  onSubmit="return openPage('time.html',280)";>     
+<input class="masuk"  type="submit" value="    YouTube    "  ></form></td><td>
+ 
+ <form action="http://ajywa.net"  >     
+<input class="masuk"  type="submit" value="    Ajywa Telecom    "  ></form></td>
+
+<form action="$(link-status)" name="login" onSubmit="return openLogin()">
+<input type="submit" value="Votre statut de connexion Internet">
+</form></td></tr></table><br>
+
+
+<form action="http://10.5.50.1:82/user" name="login" onSubmit="return openLogin()">
+<input type="submit" value="Edit Password/Info">
+</form></td>
+
+
+
+</table>
+				  
+				  
+				 
+                    
+                      <span class="style6">www.spidernet-bi.com<a href="#" class="style6"></a></span></td>
+                </tr>
+            </table></td>
+            <td width="126"><img alt=""  src="images/right_2.gif" width="126" height="288"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="250" align="left" valign="top" style="background-image:url(images/bottom_1.gif) "><div style="padding-left:599px; padding-top:25px"><span class="style5">2011&copy; company <br>
+              <a href="" class="style5">Privacy policy</a></span></div></td>
+      </tr>
+    </table></td>
+    <td style="background-image:url(images/til_1.gif); background-position:top left; background-repeat:repeat-x ">&nbsp;</td>
+  </tr>
+  <tr>
+    <td  style="border-top:7px solid #ffffff ">&nbsp;</td>
+    <td height="100%" align="left" valign="top" style="border-top:7px solid #ffffff ">&nbsp;</td>
+    <td  style="border-top:7px solid #ffffff ">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

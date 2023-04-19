@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" dir="ltr" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" class="js">
+<head>
+<title>CampusNet Hotspot</title>
+	<style>
+		
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table, th, td {
+  border: 0.1px solid;
+  margin: 0 auto;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  background-color: #eee;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+		
+</style>
+<link rel="shortcut icon" href="icon/favicon.png">
+<link rel="stylesheet" type="text/css" href="login-link.css">
+<link rel="shortcut icon" type="image/png" href="cnlogo.png"/>
+
+<script src="js/modernizr-2.6.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="js/ajax_view.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="index.css" media="all"> 
+<script src="js/jquery.min.js"></script>
+<script src="js/lean-slider.js"></script>
+<link rel="stylesheet" href="lean-slider.css" type="text/css" />
+<link rel="stylesheet" href="sample-styles.css" type="text/css" />
+
+</head>
+<body>
+
+<!--$(if chap-id)-->
+	<form name="sendin" action="$(link-login-only)" method="post">
+		<input type="hidden" name="username" />
+		<input type="hidden" name="password" />
+		<input type="hidden" name="dst" value="$(link-orig)" />
+		<input type="hidden" name="popup" value="true" />
+	</form>
+	
+	<script type="text/javascript" src="/md5.js"></script>
+	<script type="text/javascript">
+	
+	    function doLogin() {
+		document.sendin.username.value = document.login.username.value;
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+		document.sendin.submit();
+		return false;
+	    }
+	
+	</script>
+<!--$(endif)-->
+	
+
+	<br/><br/>
+<div class="main-body">
+
+
+  <div id="wrapper">
+		
+    <div id="container" class="clear-block"><a href="javascript:void(0)" class="login">Cliquez ici</a>
+	                
+     <div class="loginform">
+  <form name="login" action="$(link-login-only)" method="post"
+$(if chap-id) onSubmit="return doLogin()" $(endif)>
+<input type="hidden" name="dst" value="$(link-orig)" />
+<input type="hidden" name="popup" value="true" />
+<div class=hmd> <strong> <td>CODE INTERNET</td></strong> 	</div>		
+<div class="form-item" id="edit-name-wrapper">
+  <input name="username" type="text" size="70" maxlength="25" style="text-align: center" class="form-text required" />
+  <tr><br/>
+    <br/>
+    <br/>
+    <td>&nbsp;&nbsp;&nbsp;
+      <input name="password" type="password" size="24" maxlength="25" style="display: none"  class="form-text required" /></td>
+    <td width="25px" valign="bottom" align="center">&nbsp;&nbsp;&nbsp;
+      <input type="hidden" name="login" value="login">
+    </div>
+	  
+<div>
+  <input name="op" id="edit-submit-1" value="Connect" class="form-submit" type="submit">
+  <div>
+</div>
+</td>
+<tr>
+<input name="form_build_id" id="form-bad46fd7c3e970c2b1a64b5a475ac743" value="form-bad46fd7c3e970c2b1a64b5a475ac743" type="hidden">
+	  </div></form>
+      </div>
+        
+</ul>        			
+		 
+<div><div class="container-inline">
+  
+</div>
+
+</div></form>
+
+      </div> <!-- /header -->
+
+
+<div class="container-div">
+
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+</div>
+
+<div class="slider-wrapper">	
+	<div class="item-list"><ul>
+<!--
+		<table style="width:50%">
+  <tr>
+    <td>IP address : $(ip)</td>
+    <td>MAC address : $(mac)</td>
+  </tr>
+</table>
+-->
+	<li class="first"></li>
+	<a href="help.html">Cliquez ici pour avoir de l'Aide!</a>
+		</br>
+<!--  <strong>$(if error)</strong>-->
+<!--  <div style="color: red; font-size: 12px;">$(error)</div>$(endif)-->
+<!--$(if trial == 'yes')<a style="color: #FF8080" href="$(link-login-only)?dst=$(link-orig-esc)&username=T-$(mac-esc)">Free Trial</a>$(endif)-->
+</ul></div>
+        <div id="slider">
+            <div class="slide1">
+                <img src="images/11.jpg" alt="" />
+            </div>
+            <div class="slide2">
+                <img src="images/12.jpg" alt="" />
+            </div>
+            <div class="slide3">
+                <img src="images/13.jpg" alt="" />
+            </div>
+            <div class="slide4">
+                <img src="images/14.jpg" alt="" />
+            </div>
+        </div>
+        <div id="slider-direction-nav"></div>
+        <div id="slider-control-nav"></div>
+	<div class="scroll-text">
+  <marquee behavior="scroll" direction="left">Utilisez votre code internet pour acceder a notre Internet Haut debit. Votre adresse IP est : $(ip) , votre adresse MAC est : $(mac).</marquee>
+</div><div class="separator">
+<!--
+                    <div class="separator_firstchild">
+                        <div class="ip_information">
+                            <span >IP address : </span>
+                            <span class="opacity">$(ip)</span>
+                        </div>
+                        <div class="ip_information">
+                            <span>MAC address : </span>
+                            <span class="opacity">$(mac)</span>
+                        </div>
+    </div>
+-->
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var slider = $('#slider').leanSlider({
+            directionNav: '#slider-direction-nav',
+            controlNav: '#slider-control-nav'
+        });
+    });
+    </script>
+		
+</div>
+        <div class="f-left"> </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+      
+     <div class="sidebars-container"> </div> 
+     <!-- /container -->
+  </div>
+  </div>  
+ <div id="footer">
+<div class="footer-wrap">
+  <div class="footer-right">   
+<!--  		<a href="#" class="totop">Back to Top</a>     -->
+<div id="block-menu-menu-footer-menu" class="clear-block block block-menu"> 
+ </div>
+<!-- /layout -->      
+
+
+<!--jangan dirubah-->
+<script type="text/javascript">
+<!--
+  document.login.username.focus();
+//-->
+</script>
+<!--jangan dirubah-->    
+</body></html>
